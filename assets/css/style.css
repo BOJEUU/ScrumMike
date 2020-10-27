@@ -5,3 +5,48 @@
 .buttonReturn{
     background-color: #4ADFE4;
 }
+/* flavie */
+.avatar{
+    margin-right: 15%;
+}
+.nav{
+    background-color: #364F6B;
+
+}
+a.nav-link{
+    color: #4ADFE4;
+}
+.john{
+    margin-top: 2%;
+    width: 80%;
+    height: 10%;
+}
+/* theo */
+.imgAquarium{
+    width: 80vw;
+    height: auto;
+}
+
+.titleSection{
+    font-size: 2rem;
+    height: auto;
+}
+
+.textColor{
+    color: #364F6B;
+}
+
+.imgAqua{
+    width: 20rem;
+    height: auto;
+}
+
+.textDrescription{
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.buttonCss{
+    background-color: #364F6B;
+    color: white;
+}
