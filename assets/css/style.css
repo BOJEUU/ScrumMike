@@ -5,6 +5,12 @@
 .buttonReturn{
     background-color: #4ADFE4;
 }
+.cursor{
+    cursor: pointer;
+}
+.marginchiant{
+    margin-top: 5%;
+}
 /* flavie */
 .avatar{
     margin-right: 15%;
@@ -20,6 +26,20 @@ a.nav-link{
     margin-top: 2%;
     width: 80%;
     height: 10%;
+}
+.black-bar{
+    background: #364f6b;
+    opacity: 60%;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    height: 20%;
+    margin-inline-start: 24%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-bottom: 3%;
 }
 /* theo */
 .imgAquarium{
@@ -49,4 +69,47 @@ a.nav-link{
 .buttonCss{
     background-color: #364F6B;
     color: white;
+}
+.imgShrimp{
+    width: 80vw;
+    height: auto;
+}
+
+.titleSection{
+    font-size: 2rem;
+    height: auto;
+}
+
+.textColorCrevettes{
+    color: whitesmoke;
+}
+.textColorAqua{
+    color: #364F6B;
+}
+
+.imgCrevettes{
+    width: 20rem;
+    height: auto;
+    border-color: #364F6B;
+}
+
+.textDrescription{
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.buttonCss{
+    background-color: #364F6B;
+    color: #4ADFE4;
+    border-color: #4ADFE4;
+}
+
+.bg{
+    background-color: #364F6B;
+}
+
+.titleShrimp{
+    color: whitesmoke;
+    padding-left: 18%;
+    padding-top: 2%;
 }
