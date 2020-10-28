@@ -11,6 +11,18 @@
 .marginchiant{
     margin-top: 5%;
 }
+.white{
+    color: white;
+    height: 10%;
+    width: 10%;
+    margin-left: 2%;
+}
+.bojeu{
+    width: 50%;
+    height: 50%;
+    padding-left: 30%;
+}
+
 /* flavie */
 .avatar{
     margin-right: 15%;
@@ -29,7 +41,7 @@ a.nav-link{
 }
 .black-bar{
     background: #364f6b;
-    opacity: 60%;
+    opacity: 85%;
     text-align: center;
     color: #fff;
     width: 50%;
@@ -110,6 +122,128 @@ a.nav-link{
 
 .titleShrimp{
     color: whitesmoke;
-    padding-left: 18%;
+    padding-left: 25%;
     padding-top: 2%;
 }
+.bgdd{
+    background-color: #364F6B;
+}
+.paddinggg{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:2%;
+    padding-bottom: 3%;
+}
+.titleSection{
+    font-size: 2rem;
+    height: auto;
+    color: #364F6B;
+}
+
+.titleSectionInside{
+    font-size: 1.5rem;
+    height: auto;
+    color: #364F6B;
+}
+
+.textColor{
+    color: #364F6B;
+}
+
+.ultheo{
+    list-style: none;
+}
+
+.imgMaps{
+    width: 80rem;
+    height: auto;
+}
+
+.ptheo{
+    color: #364F6B;
+}
+
+.litheo{
+    color: #364F6B;
+}
+
+.separate{
+    border-left: 2px solid #364F6B;
+}
+/* Mike */
+.bg-form{
+    background-color: #364F6B;
+    }
+    
+    .partCoordonnees{
+    
+        background-color: #364F6B;
+        color: white;
+    }
+    
+    
+    
+    .bg-title{
+    
+        background-color: #364F6B;
+        color: white;
+        justify-content: center;
+    
+    }
+    
+    .margecontact{
+    
+        margin-top: 2%;
+        margin-bottom: 2%;
+    
+    }
+    
+    
+    .fa-linkedin{
+    font-size: 2rem;
+    }
+    
+    
+    .fa-instagram{
+    
+    font-size: 2rem;
+    
+    }
+    
+    .test{
+        width:20rem;
+    }
+    
+    .coord{
+        border-right: 1px solid grey;
+    
+    }
+    
+    .test2{
+        padding-left: 30px;
+    }
+    
+    .test3{
+        margin-left: 30px;
+        width: 10rem;
+    }
+    .bgrow{
+        background-color: #364F6B;
+    }
+    
+    .infosPratiques{
+     color: white;
+     text-align: center;
+     padding-top: 2%;
+     }
+    
+    
+    #paragraphe{
+    color: white;
+    padding: 2%;
+    padding-right: 20%;
+    padding-left: 20%;
+    justify-content: center;
+    }
+    
+    
