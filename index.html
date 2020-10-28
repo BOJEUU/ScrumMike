@@ -68,12 +68,13 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <header>
-        <nav class="colornavbar fixed-top">
+    <header class="container-fluid">
+        <nav class="colornavbar fixed-top d-none d-sm-block d-sm-none d-md-block">
 
             <ul class="nav justify-content-end colornavbar">
                 <li class="nav-item avatar">
@@ -83,7 +84,7 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link active" href="#">Accueil</a>
+                    <a class="nav-link active" href="#accueil">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#Crevettes">Crevettes</a>
@@ -103,10 +104,23 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
                 </li>
             </ul>
         </nav>
+        <div class="dropdown bgnav d-block d-sm-noned-none d-sm-block d-md-none fixed-top">
+            <button class="btn btn" type="button" data-toggle="dropdown">
+            <i class="fa fa-bars fa-1x colorgay"></i>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#accueil">Accueil</a>
+              <a class="dropdown-item" href="#Crevettes">Crevettes</a>
+              <a class="dropdown-item" href="#aquarium">Aquarium</a>
+              <a class="dropdown-item" href="#info">Info Pratiques</a>
+              <a class="dropdown-item" href="#boutique">Boutique</a>
+              <a class="dropdown-item" href="#Contact">Contact</a>
+            </div>
+          </div>
         <div class="text-center image-block" id="john">
             <div style="position: relative;">
                 <img src="assets/img/imgJohn.jpg" class="john" alt="JohnCrevettes">
-                <div class="black-bar">
+                <div class="black-bar d-none d-sm-block">
                     <h1>John Crevettes</h1>
                     <p>John Crevettes agées de 43 ans et descendant direct de Louis VI à l'honneur de vous accueillir
                         sur son site de Crevettes.
@@ -136,23 +150,49 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
             </div> <!-- END ROW -->
 
             <!-- textDescription -->
-            <div class="textDrescription">
-                <p class="titleSection textColorCrevettes mb-2 mt-4">Crevettes Sanguines</p>
-                <p class="textColorCrevettes mb-5">les crevettes Sanguines détiennent leurs nom a cause de leurs
-                    exosquellette à couleur sanguine et sont parmis les crevettes domestique les plus répandue en
-                    Bretagne</p>
-            </div> <!-- END textDescription -->
+            <div class="row">
+                <div class="textDrescription col-12 text-center">
+                    <p class="titleSection textColorCrevettes">Crevettes Sanguines</p>
+                    <p class="textColorCrevettes">les crevettes Sanguines détiennent leurs nom a cause de leurs
+                        exosquellette à couleur sanguine et sont parmis les crevettes domestique les plus répandue en
+                        Bretagne</p>
+                </div> <!-- END textDescription --> 
 
-            <!-- 3 AQUARIUMS -->
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-12 col-sm-4 text-center">
                     <img src="assets/img/shrimp1.jpg" class="imgCrevettes" alt="">
-                    <p class="titleShrimp h4 text-left font-weight-bold">Clown Shrimp
+                    <p class="titleShrimp h4 font-weight-bold">Clown Shrimp
                         <a data-toggle="modal" data-target=".bd-example-modal-xl-clown"><span
                                 class="cursor">&#x24BE</span></a></p>
                     <p class="textColorCrevettes mt-3">En effet cette crevettes ressemble de près ou de loin au poisson
                         clown à cause des petites bande rayées sur son dos et son teint orange vif.</p>
+                </div>
 
+                <div class="col-12 col-sm-4 text-center">
+                    <img src="assets/img/shrimp2.jpg" class="imgCrevettes" alt="">
+                    <p class="titleShrimp h4 font-weight-bold">Tiger shrimp alias "BLACK TIGER"
+                    <a data-toggle="modal" data-target=".bd-example-modal-xl-tigre"><span
+                     class="cursor">&#x24BE</span></a></p>
+                    </p>
+                    <p class="textColorCrevettes mt-3">Véritable must-have du collectionneur de crevettes ,la crevette
+                        tigre tiens son nom grâce a sont exosquelette tigré, véritable prédateur alpha de petit
+                        crustacés sa force n'as d'égal que sa beauté.</p>
+                </div>
+
+                <div class="col-12 col-sm-4 text-center">
+                    <img src="assets/img/trans.jpg " class="imgCrevettes" alt="">
+                    <p class="titleShrimp h4 font-weight-bold">Crevettes transparente
+                        <a data-toggle="modal" data-target=".bd-example-modal-xl-trans"><span
+                                class="cursor">&#x24BE</span></a></p>
+                    </p>
+                    <p class="textColorCrevettes mt-3">"Ces petites crevettes sont des as dans l'art du camouflage" En
+                    effet garce a leurs exosquelette transparent nous avons du mal les repérer</p>
+                </div>
+            </div>
+
+
+            <!-- 3 AQUARIUMS -->
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                     <div class="modal fade bd-example-modal-xl-clown" tabindex="-1" role="dialog"
                         aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
@@ -198,14 +238,6 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <img src="assets/img/shrimp2.jpg" class="imgCrevettes" alt="">
-                    <p class="titleShrimp h4 text-left font-weight-bold">Tiger shrimp alias "BLACK TIGER"
-                        <a data-toggle="modal" data-target=".bd-example-modal-xl-tigre"><span
-                                class="cursor">&#x24BE</span></a></p>
-                    </p>
-                    <p class="textColorCrevettes mt-3">Véritable must-have du collectionneur de crevettes ,la crevette
-                        tigre tiens son nom grâce a sont exosquelette tigré, véritable prédateur alpha de petit
-                        crustacés sa force n'as d'égal que sa beauté.</p>
                     <div class="modal fade bd-example-modal-xl-tigre" tabindex="-1" role="dialog"
                         aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
@@ -241,13 +273,6 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-                    <img src="assets/img/trans.jpg " class="imgCrevettes" alt="">
-                    <p class="titleShrimp h4 text-left font-weight-bold">Crevettes transparente
-                        <a data-toggle="modal" data-target=".bd-example-modal-xl-trans"><span
-                                class="cursor">&#x24BE</span></a></p>
-                    </p>
-                    <p class="textColorCrevettes mt-3">"Ces petites crevettes sont des as dans l'art du camouflage" En
-                        effet garce a leurs exosquelette transparent nous avons du mal les repérer</p>
                     <div class="modal fade bd-example-modal-xl-trans" tabindex="-1" role="dialog"
                         aria-labelledby="myLargeModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
@@ -359,19 +384,13 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
     <!-- fin info pratique -->
     <div class="container-fluid bgdd">
         <div id="accordion" class="paddinggg">
-            <div class="card">
+
+            <div class="card w-50 mx-auto">
                 <button class="btn btn-" data-toggle="collapse" data-target="#collapseOne"aria-expanded="false" aria-controls="collapseOne">
-                    <h5 class="mb-0">
-                        <div class="row">
-                            <div class="col-11">
-                               <p class="faq text-start">Lorem Ipsum ?</p>
-                            </div>
-                            <div class="col-1">
-                                <img class="bojeu" src="assets\img\angle-down-solid.svg">
-                            </div>
-                        
-                        </div>
-                    </h5>
+                    <div class="d-flex justify-content-between">
+                        <h5>Info 1</h5>
+                        <img class="bojeu" src="assets/img/angle-down-solid.svg" alt="">
+                    </div>
                 </button>
             
 
@@ -387,19 +406,12 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card w-50 mx-auto">
                 <button class="btn btn-" data-toggle="collapse" data-target="#collapseTwo"aria-expanded="false" aria-controls="collapseOne">
-                    <h5 class="mb-0">
-                        <div class="row">
-                            <div class="col-11">
-                               <p class="faq d-flex text-start">Lorem Ipsum ?</p>
-                            </div>
-                            <div class="col-1">
-                                <img class="bojeu" src="assets\img\angle-down-solid.svg">
-                            </div>
-                        
-                        </div>
-                    </h5>
+                    <div class="d-flex justify-content-between">
+                        <h5>Info 1</h5>
+                        <img class="bojeu" src="assets/img/angle-down-solid.svg" alt="">
+                    </div>
                 </button>
             
 
@@ -415,19 +427,12 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card w-50 mx-auto">
                 <button class="btn btn-" data-toggle="collapse" data-target="#collapseThree"aria-expanded="false" aria-controls="collapseOne">
-                    <h5 class="mb-0">
-                        <div class="row">
-                            <div class="col-11">
-                               <p class="faq text-start">Lorem Ipsum ?</p>
-                            </div>
-                            <div class="col-1">
-                                <img class="bojeu" src="assets\img\angle-down-solid.svg">
-                            </div>
-                        
-                        </div>
-                    </h5>
+                    <div class="d-flex justify-content-between">
+                        <h5>Info 1</h5>
+                        <img class="bojeu" src="assets/img/angle-down-solid.svg" alt="">
+                    </div>
                 </button>
             
 
@@ -447,63 +452,57 @@ s+-.sddd+`    .ho/os.     ``.-:+so.   `:yo-````:s/:/+shmmso+//++++hdh////////::y
     </div>
     <!-- Fin Info Pratiques -->
     <!-- Boutique -->
-    <section>
-        <!-- SHOP -->
+    <section> <!-- SHOP -->
         <div class="container-fluid" id="boutique">
-            <div class="row justify-content-center">
-                <!-- row 1-->
-                <div class="col-7">
-                    <p class="titleSectionS mb-2 mt-4 d-flex justify-content-center">Boutique</p>
-                    <p class="mt-4">John Crevettes, 43 ans, descendant direct de Louis VI, à l'honneur de vous
-                        accueillir sur son site de Crevettes. Depuis sa tendre enfance John est amoureux de l'élevage de
-                        Crevettes.
-                        Sa boutique se situe à Concarneau en Bretagne. Primé plus de 10 années consécutives de la Shrimp
-                        Gold Award, John Crevettes fait parti des meilleurs éléveur de France.</p>
+            <div class="row justify-content-center"> <!-- row 1-->
+                <div class="col-12 col-md-6">
+                  <p class="titleSection mb-2 mt-4 d-flex justify-content-center">Boutique</p>
+                  <p class="mt-4">John Crevettes, 43 ans, descendant direct de Louis VI, à l'honneur de vous accueillir sur son site de Crevettes. Depuis sa tendre enfance John est amoureux de l'élevage de Crevettes.
+                    Sa boutique se situe à Concarneau en Bretagne. Primé plus de 10 années consécutives de la Shrimp Gold Academy, John Crevettes fait parti des meilleurs éléveur de France.</p>
                 </div> <!-- END col-6 -->
             </div> <!-- END row 1 -->
-
-            <div class="row">
-                <!-- row 2 -->
-                <div class="col-6 d-flex justify-content-center">
-                    <ul class="ultheo">
-                        <li>
-                            <p class="titleSectionInside mb-3 mt-4 font-weight-bold">Horaires</p>
-                        </li>
-                        <li class="font-weight-bold">Dimanche : Fermé</li>
-                        <li class="font-weight-bold">Lundi : Fermé</li>
+              
+            <div class="row"> <!-- row 2 -->
+                <div class="col-12 col-sm-6 d-flex justify-content-center">
+                    <ul class="p-0 m-0 text-center ultheo">
+                        <li><p class="titleSectionInside mb-3 mt-4 font-weight-bold">Horaires</p></li>
+                      <div class="d-none d-sm-block"> 
+                        <li class="font-weight-bold litheo">Dimanche : Fermé</li>
+                        <li class="font-weight-bold litheo litheo">Lundi : Fermé</li>
                         <li class="litheo"><span class="font-weight-bold">Mardi : </span>9h - 19h</li>
                         <li class="litheo"><span class="font-weight-bold">Mercredi : </span>9h - 19h</li>
-                        <li class="litheo"><span class="font-weight-bold">Jeudi : </span>9h - 17h</li>
+                        <li class="litheo"><span class="font-weight-bold">Jeudi : </span>9h - 19h</li>
                         <li class="litheo"><span class="font-weight-bold">Vendredi : </span>9h - 19h</li>
                         <li class="litheo"><span class="font-weight-bold">Samedi : </span>9h - 19h</li>
+                      </div>
+                      <div class="d-block d-sm-none">
+                        <li class="litheo">Fermé Dimanche et Lundi</li>
+                        <li class="litheo">Lundi au Samedi 9h - 19h</li>
+                      </div>
                     </ul>
                 </div> <!-- END col 1 inside row 2 -->
-
-                <div class="col-6 d-flex justify-content-center separate">
-                    <ul class="ultheo">
-                        <li class="litheo">
-                            <p class="titleSectionInside mb-3 mt-4 font-weight-bold">Accessibilité</p>
-                        </li>
-                        <li class="litheo">John Crevettes</li>
-                        <li class="litheo">34 Quai Carnot</li>
-                        <li class="litheo">29 900 Concarneau</li>
-                        <li class="litheo">Bretagne, France</li>
-                        <li class="litheo">-----------------</li>
-                        <li class="litheo">02 10 20 30 40</li>
-                        <li class="litheo">06 07 08 09 10</li>
+    
+                <div class="col-12 col-sm-6 d-flex justify-content-center mt-4 separateGrandEcran">
+                    <ul class="p-0 m-0 text-center separate ultheo lihteo">
+                        <li><p class="titleSectionInside mb-3 mt-4 font-weight-bold">Accessibilité</p></li>
+                        <li class="font-weight-bold lihteo">John Crevettes</li>
+                        <li class="lihteo">34 Quai Carnot, 29 900 Concarneau</li>
+                        <li class="lihteo">Bretagne, France</li>
+                        <li class="lihteo">02 10 20 30 40</li>
+                        <li class="lihteo">06 07 08 09 10</li>
                     </ul>
                 </div> <!-- END col 2 inside row 2 -->
             </div> <!-- END row 2 -->
-
-            <div class="row">
-                <!-- row 3 -->
+    
+            <div class="row"> <!-- row 3 -->
                 <div class="col-12 d-flex justify-content-center mt-4 mb-4">
-                    <img src="assets\img\maps.jpg" class="imgMaps" alt="">
+                    <img src="assets/img/maps.jpg" class="imgMaps" alt="">
                 </div>
             </div> <!-- END row 3-->
-
+    
         </div> <!-- END container-fluid -->
     </section> <!-- END SHOP -->
+        
     <!-- Fin Boutique -->
     <!-- Contact -->
     <div class="container-fluid" id="Contact">
