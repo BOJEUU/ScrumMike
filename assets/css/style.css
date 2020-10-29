@@ -56,6 +56,11 @@ a.nav-link {
     width: 80%;
     height: 10%;
 }
+@media screen and (min-width:550px){
+    .johnn {margin-top: 18%;
+
+    }
+}
 
 .black-bar {
     background: #364f6b;
