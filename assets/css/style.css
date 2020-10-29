@@ -52,16 +52,15 @@ a.nav-link {
 }
 
 .john {
-    margin-top: 2%;
+    margin-top: 5%;
     width: 80%;
     height: 10%;
 }
-@media screen and (min-width:550px){
-    .johnn {margin-top: 18%;
-
+@media all and (max-width: 768px) {
+    .john {
+        margin-top: 20%;
     }
 }
-
 .black-bar {
     background: #364f6b;
     opacity: 85%;
@@ -249,12 +248,20 @@ a.nav-link {
 .test2 {
     padding-left: 30px;
 }
-
+@media all and (max-width: 768px) {
+    .test2 {
+        padding-left: 0px;
+    }
+}
 .test3 {
     margin-left: 30px;
     width: 10rem;
 }
-
+@media all and (max-width: 768px) {
+    .test3 {
+        margin-left: 0px;
+    }
+}
 .bgrow {
     background-color: #364F6B;
 }
