@@ -60,7 +60,12 @@ a.nav-link {
     .john {
         margin-top: 20%;
     }
+
+    .widthPetitEcranQuestionnaire{
+        width: 100%!important;
+    }
 }
+
 .black-bar {
     background: #364f6b;
     opacity: 85%;
