@@ -52,3 +52,12 @@ body {
 body {
     font-family: 'Monotype Corsiva', sans-serif !important;
 }
+
+
+.sizeUp{
+    font-size: 140%;
+}
+
+.sizeVeryUp{
+    font-size: 50000px;
+}
